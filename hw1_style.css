@@ -118,7 +118,7 @@ p {
   font-size: 14px;
   line-height: calc(16.41 / 14);
   letter-spacing: 0.02em;
-  margin-right: 30px;
+  margin-right: 50px;
   display: flex;
   align-items: center;
 }
@@ -308,7 +308,12 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+.employers-link-item .social-link {
   fill: var(--filler-icon);
+}
+.info-link-item .social-link {
+  fill: var(--page-background);
 }
 .social-link:hover,
 .social-link:focus {
