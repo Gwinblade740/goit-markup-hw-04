@@ -61,6 +61,9 @@ p {
   letter-spacing: 0.03em;
   display: inline-block;
 }
+.page-logo .logo-footer {
+  color: var(--page-background);
+}
 .navigation-wrapper {
   display: flex;
   align-items: center;

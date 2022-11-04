@@ -53,6 +53,9 @@ p {
   letter-spacing: 0.03em;
   display: inline-block;
 }
+.page-logo .logo-footer {
+  color: var(--page-background);
+}
 .logo-web {
   color: var(--logo-web);
 }
