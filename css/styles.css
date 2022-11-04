@@ -109,7 +109,7 @@ p {
   font-size: 14px;
   line-height: calc(16.41 / 14);
   letter-spacing: 0.02em;
-  margin-right: 30px;
+  margin-right: 50px;
   display: flex;
   align-items: center;
 }
@@ -294,10 +294,7 @@ p {
 .info-link-item .info-social-link {
   background: rgba(255, 255, 255, 0.1);
 }
-.info-link-item .info-social-link:hover,
-.info-link-item .info-social-link:focus {
-  background-color: var(--navigation-items-hover);
-}
+
 .social-link {
   width: 44px;
   height: 44px;
@@ -306,12 +303,16 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  fill: var(--filler-icon);
+}
+.info-link-item .social-link {
+  fill: var(--page-background);
 }
 .social-link:hover,
 .social-link:focus {
   background-color: var(--navigation-items-hover);
   fill: var(--page-background);
+}
+.social-icon {
 }
 .social-link:hover > .social-icon {
   fill: var(--page-background);
